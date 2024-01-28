@@ -4,8 +4,9 @@ img {
     outline: 2px blue solid;
 }
 .horizontal,
-.main-container,
-.section-one {
+.section-one,
+.vertical,
+.container {
     display: flex;
 }
 body {
@@ -25,8 +26,17 @@ body {
 .main-text {
     font-size: 48px;
     font-weight: bolder;
+    color: #f9faf8
 }
 
+.vertical {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+}
 button {
     background-color: #3882f6;
     border-radius: 6px;
@@ -36,7 +46,7 @@ button {
 
 .horizontal {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
