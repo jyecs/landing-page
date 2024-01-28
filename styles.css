@@ -7,8 +7,39 @@
 .section-one-container,
 .main-container,
 .section-two,
+.section-three,
 .small-image {
     display: flex;
+}
+
+.section-three {
+    flex-direction: column;
+    background-color: #e5e7eb;
+
+}
+
+.section-three > div {
+    margin-left: 25%;
+    margin-right:25%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three > div > p {
+    color:#1f2937;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+.section-three > div > h1 {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .section-two {
