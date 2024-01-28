@@ -6,7 +6,9 @@ img {
 .horizontal,
 .section-one,
 .vertical,
-.container {
+.container,
+.section-one-container,
+.main-container {
     display: flex;
 }
 body {
@@ -36,18 +38,30 @@ body {
 
 .container {
     flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
 button {
     background-color: #3882f6;
     border-radius: 6px;
     color:#e5e7eb;
+    align-self: baseline;
+    border: none;
 }
 
+p {
+    margin: 0;
+}
 
 .horizontal {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+}
+
+.small-margin {
+    margin: 10px 10px 10px 10px;
 }
 
 .section-one {
@@ -59,4 +73,23 @@ button {
 
 .main-container {
     flex-direction: column;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-one-container {
+    flex-direction: row;
+}
+
+.section-one-container > * {
+    flex-basis: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.placeholder {
+    background-color: grey;
 }
