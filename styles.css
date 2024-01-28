@@ -189,6 +189,8 @@ h1 {
 
 .section-one-container {
     flex-direction: row;
+    margin-bottom: 75px;
+    margin-top: 75px;
 }
 
 .section-one-container > * {
