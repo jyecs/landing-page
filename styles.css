@@ -37,6 +37,11 @@ body {
     justify-content: center;
 }
 
+.vertical > * {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 .container {
     flex-direction: column;
     margin-left: 20%;
@@ -49,6 +54,9 @@ button {
     color:#e5e7eb;
     align-self: baseline;
     border: none;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
 }
 
 p {
